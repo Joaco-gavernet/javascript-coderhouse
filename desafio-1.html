@@ -1,0 +1,40 @@
+<!-- Desafio de la clase 1 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio de la clase 1</title>
+  <script>
+    // Primer desafio:
+    nombre = prompt('Ingrese su nombre');
+    console.log('Hola', nombre);
+    edad = prompt('¿Cual es tu edad',nombre,'?');
+    if (edad < 18){
+      alert('No puedes ingresar');
+    } else {
+      console.log('Bienvenido')
+      // Segundo desafio:
+      points = 0;
+      alert('Puntuación inicial: ' + points);
+      movie = 'Cars';
+      yearOfRelease = 2006;
+      answer = prompt('¿Que película animada tiene un personaje principal que se llama McQueen?');
+      if (answer == movie){
+        alert('Respuesta correcta');
+        points = points + 1;
+      } else {alert('Respuesta incorrecta')};
+      answer2 = prompt('¿En que año se lanzó esta película?');
+      if (answer2 == 2006){
+        alert('Respuesta correcta');
+      } else {
+        alert('Respuesta incorrecta');
+      }
+      alert('Puntuación final: ' + points);
+    };
+  </script>
+</head>
+<body>
+  <h1>Desafio de la clase 1 terminado</h1>
+</body>
+</html>
